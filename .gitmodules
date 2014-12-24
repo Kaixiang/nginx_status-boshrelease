@@ -1,0 +1,3 @@
+[submodule "src/nginx_status"]
+	path = src/nginx_status
+	url = git@github.com:pivotal-cf-experimental/nginx_status.git
