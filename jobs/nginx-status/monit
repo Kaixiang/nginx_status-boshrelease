@@ -1,0 +1,5 @@
+check process nginx_status
+  with pidfile /var/vcap/sys/run/nginx_status/nginx_status.pid
+  start program "/var/vcap/jobs/nginx_status/bin/monit_debugger nginx_status_ctl '/var/vcap/jobs/nginx_status/bin/nginx_status_ctl start'"
+  stop program "/var/vcap/jobs/nginx_status/bin/monit_debugger nginx_status_ctl '/var/vcap/jobs/nginx_status/bin/nginx_status_ctl stop'"
+  group vcap

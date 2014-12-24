@@ -1,0 +1,13 @@
+---
+name: nginx-status
+packages: []
+templates:
+  bin/monit_debugger: bin/monit_debugger
+  bin/nginx_status_ctl: bin/nginx_status_ctl
+  config/nginx_status.conf.erb: config/nginx_status.conf
+  data/properties.sh.erb: data/properties.sh
+  helpers/ctl_setup.sh: helpers/ctl_setup.sh
+  helpers/ctl_utils.sh: helpers/ctl_utils.sh
+properties:
+  nginx_status.leader_address:
+    description: Hostname/IP to the leader/master of the cluster
