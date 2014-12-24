@@ -1,6 +1,7 @@
 ---
 name: nginx-status
-packages: []
+packages:
+- nginx_status
 templates:
   bin/monit_debugger: bin/monit_debugger
   bin/nginx_status_ctl: bin/nginx_status_ctl
@@ -11,3 +12,9 @@ templates:
 properties:
   nginx_status.leader_address:
     description: Hostname/IP to the leader/master of the cluster
+  nginx_status.nginx_port:
+    description: the nginx port we want to poll for ngxin_status
+    default: 9022
+  nginx_status.metron_port:
+    description: the metron agent port
+    default: 3457 
