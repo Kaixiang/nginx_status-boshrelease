@@ -1,0 +1,31 @@
+---
+packages:
+- name: nginx_status
+  version: !binary |-
+    ZmRlNTU5YmY1ZjZmOTliNDc3NjY2ZjhkYTU4N2EyMmNmZmZiY2Q5NA==
+  sha1: !binary |-
+    OGU1ZDI1ZjM1OGQwMTZmZDEyMTQ5MmRlYmRjMWRmZDYxMTBlMjE0NQ==
+  fingerprint: !binary |-
+    ZmRlNTU5YmY1ZjZmOTliNDc3NjY2ZjhkYTU4N2EyMmNmZmZiY2Q5NA==
+  dependencies:
+  - golang1.3
+- name: golang1.3
+  version: !binary |-
+    ZTRiNjViY2I0NzhkOWJlYTFmOWM5MjA0MjM0NjUzOTcxMzU1MWE0YQ==
+  sha1: !binary |-
+    ZDE0ZGI2YzUzNDIzODgyZjI3YzA3YTQxNjdlMWI0YzU3MTFjYjExNw==
+  fingerprint: !binary |-
+    ZTRiNjViY2I0NzhkOWJlYTFmOWM5MjA0MjM0NjUzOTcxMzU1MWE0YQ==
+  dependencies: []
+jobs:
+- name: nginx_status
+  version: !binary |-
+    YjQ1YWYzMGQwNTEyYzgyODRhZGRkMGMwNGY5ZmZiNDM1ZTBmNGNmNQ==
+  fingerprint: !binary |-
+    YjQ1YWYzMGQwNTEyYzgyODRhZGRkMGMwNGY5ZmZiNDM1ZTBmNGNmNQ==
+  sha1: !binary |-
+    ODVkZDE2MzFlNzJlNzA2ZDdhYzM5ZjI2NzdkNGZlOWE5NjNjNGFiMQ==
+commit_hash: 826e2b2d
+uncommitted_changes: true
+name: nginx_status
+version: '1'
