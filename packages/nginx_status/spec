@@ -2,5 +2,6 @@
 name: nginx_status
 dependencies:
 - golang1.3
+
 files:
 - nginx_status/**/* 
