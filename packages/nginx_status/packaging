@@ -19,4 +19,4 @@ export PATH=$GOROOT/bin:$PATH
 
 cd ${BOSH_INSTALL_TARGET}/src/github.com/pivotal-cf-experimental/nginx_status
 cp -rf Godeps/_workspace/src/* ${BOSH_INSTALL_TARGET}/src/
-go build -o ${BOSH_INSTALL_TARGET}/nginx_status github.com/pivotal-cf-experimental/nginx_status
+go build -o ${BOSH_INSTALL_TARGET}/bin/nginx_status github.com/pivotal-cf-experimental/nginx_status

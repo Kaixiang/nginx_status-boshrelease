@@ -17,7 +17,7 @@ case $1 in
     # store pid in $PIDFILE
     echo $$ > $PIDFILE
 
-    exec chpst -u vcap:vcap /var/vcap/package/nginx_status/bin/nginx_status \
+    exec chpst -u vcap:vcap /var/vcap/packages/nginx_status/bin/nginx_status \
       -nginx_port=<%= p("nginx_status.nginx_port") %> \
       -metron_port=<%= p("nginx_status.metron_port") %> \
          >>$LOG_DIR/$JOB_NAME.stdout.log \
