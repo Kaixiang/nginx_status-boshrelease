@@ -21,7 +21,7 @@ jobs:
     persistent_disk: (( meta.persistent_disk ))
     properties:
       nginx_status:
-        leader_address: (( "0.nginx-status-leader-z1.nginx-status1." meta.environment "." meta.dns_root ))
+        leader_address: (( "0.nginx_status-leader-z1.nginx_status1." meta.environment "." meta.dns_root ))
 
 compilation:
   cloud_properties:

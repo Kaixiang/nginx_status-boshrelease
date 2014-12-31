@@ -10,14 +10,14 @@ update:
 
 jobs:
   - name: nginx_status_leader_z1
-    template: nginx-status
+    template: nginx_status
     instances: 0
     resource_pool: small_z1
     networks: (( merge ))
     persistent_disk: 0
     properties: {}
   - name: nginx_status_z1
-    template: nginx-status
+    template: nginx_status
     instances: 0
     resource_pool: small_z1
     networks: (( merge ))

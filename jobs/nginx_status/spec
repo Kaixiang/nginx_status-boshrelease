@@ -1,5 +1,5 @@
 ---
-name: nginx-status
+name: nginx_status
 packages:
 - nginx_status
 templates:

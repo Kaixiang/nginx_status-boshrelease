@@ -1,5 +1,5 @@
 meta:
-  environment: nginx-status-warden
+  environment: nginx_status-warden
 
   stemcell:
     name: bosh-warden-boshlite-ubuntu
